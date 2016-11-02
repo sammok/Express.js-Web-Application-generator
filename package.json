@@ -1,0 +1,11 @@
+{
+  "name": "sgnav",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./core/bin/www"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}

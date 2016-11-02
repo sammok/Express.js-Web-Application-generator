@@ -1,0 +1,35 @@
+{
+    "production": {
+        "env_name": "production",
+        "database": "yourproject-production",
+        "session": {
+            "redis_secret": "yourproject production"
+        },
+        "server": {
+            "hostname": "yourproject.com",
+            "protocol": "http",
+            "port": 4200,
+            "origins": ["yourproject.com"]
+        },
+        "client": {
+            "hostname": "yourproject-client.com"
+        }
+    },
+
+    "develop": {
+        "env_name": "develop",
+        "database": "yourproject-develop",
+        "session": {
+            "redis_secret": "yourproject develop"
+        },
+        "server": {
+            "hostname": "yourproject-develop.com",
+            "protocol": "http",
+            "port": 4200,
+            "origins": ["yourproject-develop.com"]
+        },
+        "client": {
+            "hostname": "yourproject-develop-client.com"
+        }
+    }
+}
